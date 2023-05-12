@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
+
 $dark : black;
 $secondary:#F2F2F2;
 $font-family-sans-serif :Poppins;
@@ -9,7 +10,8 @@ $input-btn-padding-x-lg :2rem;
 $navbar-nav-link-padding-x: 2.2rem;
 $nav-link-font-size:1.2rem;
 $navbar-brand-font-size:2rem;
-
+$nav-pills-link-active-bg:#ffff;
+$nav-pills-link-active-color:$dark;
 
 
 $spacer: 1rem;
@@ -29,14 +31,16 @@ $spacers: (
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/boxicons/css/boxicons.min.css";
-
+@import "../node_modules/animate.css/animate.min.css";
 
 #home {
     padding: 0;
 }
 .logo {
-    height: 50px;
+     height: 50px;
 }
+
+
 .bg-img {
     width: 400px;
     height: 400px;
@@ -80,4 +84,21 @@ $spacers: (
 }
 .input-container {
     height: 100px;
+}
+
+
+.logo:hover,.nav-link:hover,.card:hover {
+    animation: pulse 0.5s;
+}
+
+.card a:active {
+    animation: shakeX 1s;
+}
+
+.bg-img:hover {
+    animation: tada 1s;
+}
+
+.btn-dark:active{
+    animation: bounceOutUp 1s;
 }
