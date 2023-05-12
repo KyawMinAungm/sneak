@@ -1,0 +1,24 @@
+{
+  "name": "responsive-ecommerce-website-sneakers",
+  "version": "1.0.0",
+  "description": "Beautiful Responsive Ecommerce Website. It has a header and a home page showing an image and data of a product, it also has a features section, a women's sneakers section, a collection section, a offers section and a footer. It also has its own page to see all the products. Developed totally mobile first and then desktop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedimcode/responsive-ecommerce-website-sneakers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bedimcode/responsive-ecommerce-website-sneakers/issues"
+  },
+  "homepage": "https://github.com/bedimcode/responsive-ecommerce-website-sneakers#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap-icons": "^1.10.5",
+    "boxicons": "^2.1.4"
+  }
+}
